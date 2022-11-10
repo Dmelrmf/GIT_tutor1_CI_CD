@@ -9,12 +9,12 @@ def test_calcu(a, b):
     assert c == testt_c
 
 
-def test_calcu_two(a, b):
+def test_calcu_two(a=str, b):
     c = cal_111(a, b)
 
     test_c = a * b
 
-    assert c == test_c
+    assert c != test_c
 
 
 test_calcu(3, 3)
