@@ -14,8 +14,8 @@ def test_calcu_two(a, b):
 
     test_c = a * b
 
-    assert c != test_c
+    assert c == test_c
 
 
 test_calcu(3, 3)
-test_calcu_two('a', 3)
+test_calcu_two(6, 3)
