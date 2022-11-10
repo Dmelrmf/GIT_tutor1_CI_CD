@@ -9,7 +9,7 @@ def test_calcu(a=str, b=int):
     assert c == testt_c
 
 
-def test_calcu_two(a=3, b=int):
+def test_calcu_two(a=str, b=int):
     c = cal_111(a=str, b=int)
 
     test_c = a * b
