@@ -11,3 +11,4 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install flask
       - run: python test.py
+      - run: python test_calcu.py
