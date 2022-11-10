@@ -1,3 +1,3 @@
-def calcu(a=str, b=int):
+def calcu(a, b):
     c = a * b
     return c
